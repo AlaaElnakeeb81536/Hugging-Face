@@ -5,7 +5,8 @@
 - They use transformer architectures (like GPT, BERT, etc.) to process and generate text.
 
 - Applications: Text generation, summarization, translation, question answering, chatbots, and more.
-
+  
+![image](https://github.com/user-attachments/assets/7533b29f-8c0a-4d8e-8e54-8c5d3a02cd85)
 
 # There are several frameworks and libraries for working with LLMs. 
 **The most popular ones are:**
