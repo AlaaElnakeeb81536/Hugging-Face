@@ -29,6 +29,7 @@
   **Fine-Tune a Model**
 If you have a specific use case, you can fine-tune a pre-trained model on your own dataset.
 
+![image](https://github.com/user-attachments/assets/0d4d0ee6-5663-4bb1-b6d4-ec689ec05ad8)
 
 # Steps for Fine-Tuning
 
