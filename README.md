@@ -74,6 +74,6 @@ trainer = Trainer(
 trainer.train()
 ```
 Applications:
-[Sentiment Analysis](https://github.com/AlaaElnakeeb81536/Hugging-Face/blob/main/Fine_Tunning_on_imdb(SentimentAnalysis).ipynb)
+[Sentiment Analysis](https://github.com/AlaaElnakeeb81536/Hugging-Face/blob/main/FineTunning_on_imdb(SentimentAnalysis).ipynb)
 
 
