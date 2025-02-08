@@ -29,20 +29,19 @@
   **Fine-Tune a Model**
 If you have a specific use case, you can fine-tune a pre-trained model on your own dataset.
 
-**Steps for Fine-Tuning**
 
-1- Choose a Pre-Trained Model: Select a model from a library like Hugging Face (e.g., bert-base-uncased, gpt2, etc.).
+# Steps for Fine-Tuning
 
-Example: ```python
+## 1. Choose a Pre-Trained Model  
+Select a model from a library like Hugging Face (e.g., `bert-base-uncased`, `gpt2`, etc.).  
+
+**Example:**  
+```python
 from transformers import AutoModelForSequenceClassification, AutoTokenizer
 
-2- Prepare Your Dataset:
-Example: Use tools like Hugging Face's datasets library to load and preprocess data.
-
-Example: from datasets import load_dataset.
-
-3- Define the Training Setup:
-Use a framework like Hugging Face's Trainer or PyTorch's DataLoader.
+model_name = "bert-base-uncased"
+model = AutoModelForSequenceClassification.from_pretrained(model_name)
+tokenizer = AutoTokenizer.from_pretrained(model_name)
 
 
 
