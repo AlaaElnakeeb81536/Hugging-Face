@@ -25,3 +25,24 @@
 - [Summarization](https://github.com/AlaaElnakeeb81536/Hugging-Face/blob/main/HuggingFace/Text_Summarization_.ipynb) : facebook/bart-large-cnn
 
 - [Translation](https://github.com/AlaaElnakeeb81536/Hugging-Face/blob/main/HuggingFace/Text_Translation_.ipynb) : Helsinki-NLP/opus-mt-en-fr
+
+  **Fine-Tune a Model**
+If you have a specific use case, you can fine-tune a pre-trained model on your own dataset.
+
+**Steps for Fine-Tuning**
+
+1- Choose a Pre-Trained Model: Select a model from a library like Hugging Face (e.g., bert-base-uncased, gpt2, etc.).
+
+Example: ```python
+from transformers import AutoModelForSequenceClassification, AutoTokenizer
+
+2- Prepare Your Dataset:
+Example: Use tools like Hugging Face's datasets library to load and preprocess data.
+
+Example: from datasets import load_dataset.
+
+3- Define the Training Setup:
+Use a framework like Hugging Face's Trainer or PyTorch's DataLoader.
+
+
+
