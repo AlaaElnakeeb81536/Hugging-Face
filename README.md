@@ -26,7 +26,7 @@
 
 - [Translation](https://github.com/AlaaElnakeeb81536/Hugging-Face/blob/main/HuggingFace/Text_Translation_.ipynb) : Helsinki-NLP/opus-mt-en-fr
 
-### Fine-Tune a Model
+# Fine-Tune a Model.
  
 If you have a specific use case, you can fine-tune a pre-trained model on your own dataset.
 
