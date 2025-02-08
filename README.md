@@ -42,8 +42,8 @@ from transformers import AutoModelForSequenceClassification, AutoTokenizer
 model_name = "bert-base-uncased"
 model = AutoModelForSequenceClassification.from_pretrained(model_name)
 tokenizer = AutoTokenizer.from_pretrained(model_name)
-
-### 2. Prepare Your Dataset
+```
+## 2. Prepare Your Dataset
 Use tools like Hugging Face's datasets library to load and preprocess data.
 
 ### 3. Define the Training Setup
@@ -70,7 +70,7 @@ trainer = Trainer(
 )
 
 trainer.train()
-
+```
 
 
 
