@@ -76,4 +76,17 @@ trainer.train()
 Applications:
 [Sentiment Analysis](https://github.com/AlaaElnakeeb81536/Hugging-Face/blob/main/FineTunning_on_imdb(SentimentAnalysis).ipynb)
 
+-------------------------------
+### Langchain
+
+### **Comparison Table: LangChain vs Without LangChain**
+
+| **Aspect**               | **With LangChain**                                                                 | **Without LangChain**                                                                 |
+|--------------------------|------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------|
+| **Abstraction**           | Uses LangChain's abstractions like `LLMChain`, `ChatPromptTemplate`, etc.          | Directly uses Hugging Face's `transformers` library without additional abstractions.  |
+| **Prompt Management**     | Easier to manage prompts using `ChatPromptTemplate`.                               | Requires manual string formatting for prompts.                                        |
+| **Reusability**           | Prompts and chains are reusable and modular.                                       | Prompts are manually formatted each time.                                             |
+| **Complex Workflows**     | Easier to build complex workflows (e.g., chains, memory, agents).                  | Requires custom code for complex workflows.                                           |
+| **Learning Curve**        | Slightly steeper due to LangChain's abstractions.                                  | Simpler for basic use cases but harder to scale for complex applications.             |
+| **Dependencies**          | Requires `langchain` library in addition to `transformers`.                       | Only requires `transformers` library.                                                |
 
