@@ -90,3 +90,15 @@ Applications:
 | **Learning Curve**        | Slightly steeper due to LangChain's abstractions.                                  | Simpler for basic use cases but harder to scale for complex applications.             |
 | **Dependencies**          | Requires `langchain` library in addition to `transformers`.                       | Only requires `transformers` library.                                                |
 
+
+### Why Use LangChain?
+- **Simplify Complex Applications**: LangChain provides tools to build complex applications powered by large language models (LLMs).
+- **Prompt Management**: LangChain makes it easier to manage prompts using **Prompt Templates**.
+- **Memory Support**: LangChain supports memory for interactive applications like chatbots.
+- **Integration with External Tools**: LangChain integrates with databases, APIs, and other tools.
+
+### When Not to Use LangChain?
+- **For Simple Applications**: If you're building a simple application that doesn't require complex interactions.
+- **To Reduce Dependencies**: If you want to minimize the number of libraries in your project.
+- **For Basic Tasks**: If you're performing simple tasks like text generation or translation.
+
