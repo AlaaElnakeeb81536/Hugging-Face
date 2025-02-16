@@ -1,0 +1,5 @@
+gradio
+transformers
+langchain
+langchain-community
+huggingface_hub
