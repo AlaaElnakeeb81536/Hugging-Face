@@ -79,18 +79,6 @@ Applications:
 -------------------------------
 ### Langchain
 
-### **Comparison Table: LangChain vs Without LangChain**
-
-| **Aspect**               | **With LangChain**                                                                 | **Without LangChain**                                                                 |
-|--------------------------|------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------|
-| **Abstraction**           | Uses LangChain's abstractions like `LLMChain`, `ChatPromptTemplate`, etc.          | Directly uses Hugging Face's `transformers` library without additional abstractions.  |
-| **Prompt Management**     | Easier to manage prompts using `ChatPromptTemplate`.                               | Requires manual string formatting for prompts.                                        |
-| **Reusability**           | Prompts and chains are reusable and modular.                                       | Prompts are manually formatted each time.                                             |
-| **Complex Workflows**     | Easier to build complex workflows (e.g., chains, memory, agents).                  | Requires custom code for complex workflows.                                           |
-| **Learning Curve**        | Slightly steeper due to LangChain's abstractions.                                  | Simpler for basic use cases but harder to scale for complex applications.             |
-| **Dependencies**          | Requires `langchain` library in addition to `transformers`.                       | Only requires `transformers` library.                                                |
-
-
 ### Why Use LangChain?
 - **Simplify Complex Applications**: LangChain provides tools to build complex applications powered by large language models (LLMs).
 - **Prompt Management**: LangChain makes it easier to manage prompts using **Prompt Templates**.
@@ -101,4 +89,25 @@ Applications:
 - **For Simple Applications**: If you're building a simple application that doesn't require complex interactions.
 - **To Reduce Dependencies**: If you want to minimize the number of libraries in your project.
 - **For Basic Tasks**: If you're performing simple tasks like text generation or translation.
+
+  ### Memories Of langchain:
+  
+# 1- ConversationBufferMemory
+- Stores the full conversation history.
+- Useful when keeping track of past interactions is necessary for context.
+  
+# 2- ConversationSummaryMemory
+
+- Summarizes past interactions instead of storing them entirely.
+- Helps maintain context efficiently for long conversations.
+
+# 3- ConversationBufferWindowMemory
+
+- Retains only the last n interactions.
+- Ideal for chatbots needing short-term memory without excessive storage.
+
+# 4- ConversationKGMemory
+
+- Extracts key facts and stores them in a knowledge graph.
+- Best suited for structured knowledge retrieval.
 
