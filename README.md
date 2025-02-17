@@ -92,22 +92,24 @@ Applications:
 
   ### Memories Of langchain:
   
-# 1- ConversationBufferMemory
+### 1- ConversationBufferMemory
 - Stores the full conversation history.
 - Useful when keeping track of past interactions is necessary for context.
   
-# 2- ConversationSummaryMemory
+### 2- ConversationSummaryMemory
 
 - Summarizes past interactions instead of storing them entirely.
 - Helps maintain context efficiently for long conversations.
 
-# 3- ConversationBufferWindowMemory
+### 3- ConversationBufferWindowMemory
 
 - Retains only the last n interactions.
 - Ideal for chatbots needing short-term memory without excessive storage.
 
-# 4- ConversationKGMemory
+### 4- ConversationKGMemory
 
 - Extracts key facts and stores them in a knowledge graph.
 - Best suited for structured knowledge retrieval.
+  
+ **For detailed code examples, check the full notebook [here](https://github.com/AlaaElnakeeb81536/HuggingFace/blob/main/LangChain/LangChainMemories.ipynb).**
 
