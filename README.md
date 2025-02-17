@@ -111,5 +111,5 @@ Applications:
 
 This memory type retains conversation history up to a specified number of tokens, ensuring that the memory doesn't exceed the token limit of the model
   
- **For detailed code examples, check the full notebook [LangchainMemories] (https://github.com/AlaaElnakeeb81536/HuggingFace/blob/main/LangChain/LangChainMemories.ipynb).**
+ **For detailed code examples, check the full notebook [LangchainMemories](https://github.com/AlaaElnakeeb81536/HuggingFace/blob/main/LangChain/LangChainMemories.ipynb).**
 
